@@ -1,0 +1,47 @@
+.canchaTenis{
+  position: relative;
+  width:800px;
+  height: 400px;
+  background-color: green;
+}
+.rectanguloMayor{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 50px;
+  width:700px;
+  height: 350px;
+  border: 5px solid #fff;
+}
+
+.rectanguloMenor{
+  position: absolute;
+  margin-top: 50px;
+
+  width:700px;
+  height: 250px;
+  border: 5px solid #fff;
+  border-left: none;
+}
+.rectanguloCentro{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 170px;
+  width:350px;
+  height: 250px;
+  border: 5px solid #fff;
+}
+.lineaCentroVerticalTenis{
+  display: inline-block;
+  position: absolute;
+  margin-left: 50%;
+  height: 350px;
+  border: 3px solid #fff;
+}
+.lineaCentrohorizontalTenis{
+  display: inline-block;
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 0%;
+  width: 350px;
+  border: 3px solid #fff;
+}
